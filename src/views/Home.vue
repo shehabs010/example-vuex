@@ -2,7 +2,8 @@
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
     <ul v-for="item in example1" :key="item.id">
-      <li><a href="">{{item.name}}</a></li>
+      <li><router-link to="">{{item.name}}</router-link></li>
+      
     </ul>
     <form>
       <p>
